@@ -2,7 +2,7 @@ import numpy as np
 
 def calculate(list):
 
-    # Verificação se o input é uma lista de 9 números, retorna erro se não for o caso (obedecendo o t)
+    # Verificação se o input é uma lista de 9 números, retorna erro se não for o caso (obedecendo o teste)
     if len(list) != 9:
         raise ValueError("List must contain nine numbers.")
     
